@@ -1,0 +1,35 @@
+.Component2{
+    min-height: 100vh;
+    height:auto;
+    background-color:#F6F6F6;
+}
+.Component2 .aside2{
+    width:40%;
+    margin: 40px;
+    float:left;
+}
+.Component2 .aside2 img{
+    height:100%;
+    width:100%;
+}
+
+.Component2 .content{
+    padding:70px;
+    padding-left:150px;
+}
+
+
+.Red{
+    color:#EE4248;
+}
+
+.red-button{
+    padding:10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#EE4248;
+    color:white;
+    border:none;
+    border-radius:5px;
+    box-shadow:2px 2px 1px gray;
+}

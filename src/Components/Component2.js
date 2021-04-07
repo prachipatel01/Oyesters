@@ -8,10 +8,13 @@ class Component2 extends Component {
                 <img className="Img2" src={process.env.PUBLIC_URL+"/Images/Img2.jpg"} alt=""/>
             </aside>
             <div className="content">
-                <h1>Making the most of the ever-growing</h1>
-                <h1 className="Red">Information Technology</h1>
-                <p>Managed by a team of professional experts with extensive experience and impressive track records</p>
-                <button className="red-button">Read More</button>
+                <h1>Welcome to <i className="Red">Dwidasa Samsara Indonesia (DSI)</i></h1>
+                <p>Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by the founders, who each of them has a common end objective to innovate new creations by making the most of the ever-growing information technology through DSI’s distinct front-end based application concept.
+                </p>
+                <br/>
+                <p>
+                Managed by a team of professional experts with extensive experience and impressive track records, DSI believes that continuous improvements and innovations assure your business to run effectively and efficiently.</p>
+                
             </div>
         
         </div>

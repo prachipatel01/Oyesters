@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 .navbar{
     background-color: white;
@@ -121,6 +122,10 @@ span{
     margin-right: 20vw;
 }
 
+.company-logo{
+    padding-left: 80px;
+}
+
 @media only screen and (max-width: 1000px){
     .menu-logo{
         display:block;
@@ -128,4 +133,7 @@ span{
     .full-nav{
         display: none;
     }
+    .company-logo{ 
+        padding-left: 20px;
+     }  
   }

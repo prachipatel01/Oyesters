@@ -5,7 +5,7 @@
 .CompanyLogo .logo{
     padding:10px;
     display:flex;
-    padding-left: 80px;
+    /* padding-left: 80px; */
 }
 .CompanyLogo  .logo-list {
     padding-left:3px;
@@ -16,8 +16,8 @@
 
 }
 
-@media only screen and (max-width: 1000px){
+/* @media only screen and (max-width: 1000px){
     .CompanyLogo .logo{ 
        padding-left: 20px;
     }    
-}
+} */

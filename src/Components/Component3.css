@@ -1,0 +1,49 @@
+.Component3 {
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+
+.Component3 .title {
+    padding-top:40px;
+}
+
+.Component3 .card-list{
+    /* margin-left: 10vw;
+    margin-right: 10vw; */
+    display:flex;
+    padding: 50px;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 100px;
+}
+.Component3 .card-list li{
+    justify-content:center;
+    align-items:center;
+    width: 300px;
+    text-align: left;
+}
+.Component3 .card-list p{
+    width:80%;
+    text-align: left;
+    /* width: 200px; */
+}
+
+.Component3 .card-2-list{
+    display:flex;
+    padding: 50px;
+    margin-bottom: 50px;
+    width:80%;
+    text-align: left;
+}
+
+
+.Component3 .card-list li img{
+    width: 100px;
+    height: 100px;
+}
+.Component3 ul li img{
+    width:300px;
+    padding-left:50px;
+    padding-top:50px;
+}
