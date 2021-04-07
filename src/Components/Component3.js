@@ -43,7 +43,7 @@ class Component3 extends Component {
                         <p>Email : community@dwidasa.com</p>
                         
                     </li>
-                    <li>
+                    <li className="partner-icon">
                         <img classname="partner-icon" src={process.env.PUBLIC_URL+"/Images/partners.jpg"} alt=""></img>
                     </li>
                 </ul>

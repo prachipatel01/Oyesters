@@ -9,8 +9,6 @@
 }
 
 .Component3 .card-list{
-    /* margin-left: 10vw;
-    margin-right: 10vw; */
     display:flex;
     padding: 50px;
     justify-content:center;
@@ -42,8 +40,39 @@
     width: 100px;
     height: 100px;
 }
-.Component3 ul li img{
-    width:300px;
+.Component3 .partner-icon img{
+    max-width:300px;
+    width:auto;
     padding-left:50px;
     padding-top:50px;
+}
+
+@media only screen and (max-width: 1000px){
+    .Component3 .card-list{
+        display:block;
+        text-align:center;
+        margin-bottom: 0;
+    } 
+    .Component3 .card-list li{
+        width:100%;
+        text-align: center;
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+    .Component3 .card-list li p{
+        width:100%;
+        text-align: center;
+    }
+    .Component3 .card-2-list{
+        display:block;
+        margin-bottom:0;
+        padding:0;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }   
+    .Component3 .partner-icon img{
+        padding-left:0;
+        padding-top:50px;
+        max-width: 250px;
+    }
 }
