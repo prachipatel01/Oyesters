@@ -1,0 +1,23 @@
+.CompanyLogo *{
+    list-style: none;
+}
+
+.CompanyLogo .logo{
+    padding:10px;
+    display:flex;
+    padding-left: 80px;
+}
+.CompanyLogo  .logo-list {
+    padding-left:3px;
+}
+
+.CompanyLogo  .logo-list li{
+    font-size:9px;
+
+}
+
+@media only screen and (max-width: 1000px){
+    .CompanyLogo .logo{ 
+       padding-left: 20px;
+    }    
+}
